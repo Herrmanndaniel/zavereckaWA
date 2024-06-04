@@ -1,0 +1,49 @@
+.top-container {
+    background-image: url("assets/hervago2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 100vw;
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 50px rgba(7, 133, 155, 0.48);
+
+}
+.top-container h1{
+    font-family: Verdana;
+    color: white;
+    text-shadow: 0px 0px 50px black;
+    font-size: 120px;
+    /*background-color: white;*/
+    padding: 10px;
+    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.32);*/
+    border-radius: 10px;
+}
+.top-container p{
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 0px 30px black;
+    font-style: italic;
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: #0265fa !important;
+    border-color: #0449fa !important;
+}
+.profile-details-container{
+    /*border: 1px solid gray;*/
+    border-radius: 10px;
+    /*box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.17);*/
+    height: 50vh;
+}
+.detail-container{
+    /*border: 1px solid rgba(128, 128, 128, 0.35);*/
+    padding: 10px;
+
+}
+.detail , .detail-password{
+    margin-left: 10px;
+
+}
+
